@@ -1,4 +1,5 @@
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public interface Product {
@@ -15,9 +16,9 @@ public interface Product {
 
     void setCompany(String company);
 
-    LocalDateTime getExpireDate();
+    LocalDate getExpireDate();
 
-    void setExpireDate(LocalDateTime expireDate);
+    void setExpireDate(LocalDate expireDate);
 
     @Override
     String toString();

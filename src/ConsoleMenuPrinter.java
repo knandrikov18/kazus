@@ -10,7 +10,10 @@ public interface ConsoleMenuPrinter {
     void printShopData(Shop shop);
 
     void printProductMenu();
-
+    List<String> printAddProduct();
+    List<String> printUpdateProduct();
+    String printDeleteProduct();
+    void printProducts(String products);
 
     void printGoodbyeMessage();
 

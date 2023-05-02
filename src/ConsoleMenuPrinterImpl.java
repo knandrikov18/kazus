@@ -44,7 +44,47 @@ public class ConsoleMenuPrinterImpl implements ConsoleMenuPrinter {
         System.out.println("2. Update product by name");
         System.out.println("3. Delete product by name");
         System.out.println("4. Show all products");
-        System.out.println("0. Back");
+        System.out.println("5. Back");
+    }
+
+    @Override
+    public List<String> printAddProduct() {
+        List<String> list = new ArrayList<>();
+        System.out.println("Price: ");
+        list.add(scanner.nextLine());
+
+        System.out.println("Name: ");
+        list.add(scanner.nextLine());
+
+        System.out.println("Company: ");
+        list.add(scanner.nextLine());
+
+        System.out.println("ExpireDate (yyyy-MM-dd): ");
+        list.add(scanner.nextLine());
+        System.out.println("Quantity: ");
+        list.add(scanner.nextLine());
+        return list;
+    }
+
+    @Override
+    public List<String> printUpdateProduct() {
+        List<String> list = new ArrayList<>();
+        System.out.println("Name of the product you want to update: ");
+        list.add(scanner.nextLine());
+        System.out.println("Quantity: ");
+        list.add(scanner.nextLine());
+        return list;
+    }
+
+    @Override
+    public String printDeleteProduct() {
+        System.out.println("Name of the product you want to delete: ");
+        return scanner.nextLine();
+    }
+
+    @Override
+    public void printProducts(String products) {
+        System.out.println(products);
     }
 
     @Override

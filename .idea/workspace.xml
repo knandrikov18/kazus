@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8f474c7-e22b-4478-9b7a-528c072223ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConsoleMenuPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConsoleMenuPrinterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductImpl.java" afterDir="false" />
+    <list default="true" id="f8f474c7-e22b-4478-9b7a-528c072223ee" name="Changes" comment="Skuchno mi beshe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MyMagazinche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magazinche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsoleMenuPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleMenuPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ConsoleMenuPrinterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ConsoleMenuPrinterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShopImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShopImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,8 +70,16 @@
       <option name="presentableId" value="Default" />
       <updated>1683017170271</updated>
       <workItem from="1683017173764" duration="1000" />
-      <workItem from="1683052789690" duration="7702000" />
+      <workItem from="1683052789690" duration="10812000" />
     </task>
+    <task id="LOCAL-00001" summary="Skuchno mi beshe">
+      <created>1683060798613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683060798613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,15 +96,8 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/HUI.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Skuchno mi beshe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skuchno mi beshe" />
   </component>
 </project>

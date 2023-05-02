@@ -1,14 +1,22 @@
 import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class ProductImpl implements Product {
     private BigDecimal price;
     private String name;
     private String company;
-    private LocalDateTime expireDate;
+    private LocalDate expireDate;
 
 
-    public ProductImpl(BigDecimal price, String name, String company, LocalDateTime expireDate) {
+    public ProductImpl() {
+        price = new BigDecimal(0);
+        name = "";
+        company = "";
+        expireDate = LocalDate.now();
+    }
+
+    public ProductImpl(BigDecimal price, String name, String company, LocalDate expireDate) {
         this.price = price;
         this.name = name;
         this.company = company;
@@ -46,12 +54,12 @@ public class ProductImpl implements Product {
     }
 
     @Override
-    public LocalDateTime getExpireDate() {
+    public LocalDate getExpireDate() {
         return expireDate;
     }
 
     @Override
-    public void setExpireDate(LocalDateTime expireDate) {
+    public void setExpireDate(LocalDate expireDate) {
         this.expireDate = expireDate;
     }
 

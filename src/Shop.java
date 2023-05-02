@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public abstract class Shop {
 
@@ -17,6 +18,12 @@ public abstract class Shop {
         this.name = name;
         this.ownerName = ownerName;
         this.products = products;
+    }
+
+    public String getProductsInfo(){
+        return products.entrySet().stream()
+                .map(entry -> String.format("product: %s quantity: %s", entry.getKey(), entry.getValue()))
+                .collect(Collectors.joining("\n"));
     }
 
     public String getName() {
@@ -48,4 +55,8 @@ public abstract class Shop {
     }
 
     public abstract String getDetails();
+
+    public void deleteProduct(Product productToUpdate) {
+        this.products.remove(productToUpdate);
+    }
 }
